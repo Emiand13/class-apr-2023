@@ -4,218 +4,184 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Ironskydive</title>
 </head>
 <body>
-        <!-- Este es el bloque de navegacion -->
-  <nav>
-    <ul>
-    <li><a href="#structure">DayStructure</a></li>
-    <li><a href="#Team">Team</a></li>
-    <li><a href="#Schedule">Schedule</a></li>
-    </ul>
-  </nav>
-        <!--Este es el titulo-->
-    <header>
-    <h1><img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png">"IronSkydive"</h1>
-        
-    <!-- Con el blockquote añadimos una cita igual que con el aside -->
-    
-    <blockquote>
-      "La experiencia con IronSkydive fue increíble. Nunca había sentido tanta adrenalina. ¡Definitivamente lo recomiendo!" 
-    <cite>- John Smith</cite>
-    </blockquote>
+
+    <!-- Aqui tenemos la barra de navegacion del proyecto-->
+
+    <nav class="nav-bar">
+        <ul id="nav-text" class="nav-text">
+            <li> <a class="nav-text-i" href="#structure">Day Structure</a></li>
+            <li> <a class="nav-text-i" href="#team">Team</a></li>
+            <li> <a class="nav-text-i" href="#schedule">Schedule</a></li>
+        </ul>
+    </nav>
+
+    <!-- Aqui tenemos un encabezado del proyecto -->
+
+    <header class="header">
+        <h1><img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-logo.png" alt="ironskydivelogo"> Ironskydive</h1>
+        <h2 class="text-shadow">Let the trip begin</h2>
+        <aside class="quote">
+            <i>"The best experience of our lives"</i><br>
+            <p>Ariel Quiñones & Gonzalo Manrique, Ironhack Founders.</p>
+        </aside>
     </header>
-      <h2>Que empiece el viaje</h2>
-      <aside>"The best experience of our lives"
-      </aside>
-      <br>
-      <aside>
-      Ariel Quiñones & Gonzalo Manrique, Ironhack Founders
-      </aside>
-            
-      <article>
-      <!--Aqui tenemos la seccion 1 del proyecto-->
-      <section> 
-      <h3><title><h1>Hello!</h1></title></h3>
-           
-      <p>Welcome to IronSkydive, the best adventure you will ever have.</p>
-      <a href="#">Learn More</a>       
-    
+    <!-- Aqui tenemos la seccion 1 del proyecto -->
+    <section id="general-information" class="dark-background">
+        <div id="general-info" class="general-info">
+            <article class="general-info--text">
+                <h3>Hello!</h3>
+                <p>Welcome to Ironskydive, the best adventure you will ever have.</p>
+                <a class="link-btn" href="#">Learn more</a>
+            </article>
+            <article class="general-info--text">
+                <h3>About us</h3>
+                <p>We like a lot programming websites, but we also love practice sport.</p>
+                <a class="link-btn" href="#">Watch video</a>
+            </article>
+            <article class="general-info--text">
+                <h3>Wanna join?</h3>
+                <p>Join our fitness program to be in good shape while learning</p>
+                <a class="link-btn" href="#">Register</a>
+            </article>
+        </div>
+    </section>
+    <!-- Aqui tenemos la seccion 2 del proyecto -->
+    <section id="structure" class="container">
+        <div>
+      <h3>¿Como estructuramos el dia?</h3>
+      <article class="service-box col">
+        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png" alt="Ironskidive training icon">
+        <h4>1. Training</h4>
+        <p>
+          We teach all the necessary things to jump from the plane without any kind of problem.
+        </p>
       </article>
-      <article>
-      <title><h1>About us</h1></title>
-      <p>We like a lot programming websites, but we also love to practice sport</p>
-
-      <a href="#">Watch Video</a>
+      <article class="service-box-col">
+        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png" alt="Ironskydive get ready icon">
+        <h4>2. Get ready</h4>
+        <p>
+          You are already prepared, you just need the suit and parachute. All sizes available
+        </p>
       </article>
-
-      <article>
-        <title><h1>Wanna join?</h1></title>
-                <p>Join our fitness program to be in good shape while learning.</p>
-
-       <a href="#">Register</a>
-       </section>
-       </article>
-        <br>
-            
-        <!--Esta es la seccion 2 del proyecto-->
-      <section>
-        <header>
-        <h3>¿Como estructuramos el dia?</h3>
-        </header>
-      </section>
-      
-      <!-- Esta es la 3seccion 3 del proyecto -->
-      <section>
-      <article>
-        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-training.png"
-             alt="Icono de entrenamiento">
-      <ol>
-        <li>
-          <strong>Training</strong>
-        </li>
-              
-        <article>
-            <p>We teach all the necessary things to jump from the plane</p>
-        </article>
-        </li>
-        <article>
-        
-        <li>
-        <strong>Get ready</strong>
-        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-get-ready.png" alt="Icono get ready">
-        </li>
-        
-            <p>You are already prepared, you just need the suit and parachute. All sizes available</p>
-    
-        </article>
-        <li style="font-weight: bold;">
-        <strong>Fly</strong>  
-        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png" alt="Icono de vuelo">
-        </li><br>
-               
-        <article>
-        You are ready, and the plane is waiting for us in the hangar. Let¨s fly!
-        </article><br>
-    
-        <li style="font-weight: bold;">
-        <strong>Jump!</strong>
-          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png" alt="Icono de jump">
-        </li>
-        <br>
-        <article>
-        You have done the most complicated. Just one step left...jump!
-        </article>
+      <article class="service-box-col">
+        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-fly.png" alt="Ironskydive fly icon">
+        <h4>3.Fly</h4>
+        <p>
+          You are ready, and the plane is waiting for us in the hangar. Let's fly! 
+        </p>
+      </article>  
+      <article class="service-box-col">
+        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironskydive-jump.png" alt="Ironskydive jump icon">
+        <h4>4. Jump</h4>
+        <p>
+          You have done the most complicated. Just one step left...jump! 
+        </p>
+      </article>
         </ol>
         </section><br>
 
-    <!-- Esta es la tercera seccion del proyecto  -->
+    <!-- Esta es la seccion 3 del proyecto  -->
         <section>
           <header>
           <H3>Team</H3>                 
           </header>
           <div>
           <p>Our team collectively has 75 years of experience. Odds are, when you jump out of the plane with these professionals, you won't go splat. </p>
-          <article>
+
+        <article class="col col-3 ">
           <p><hr> Harold Rothstein</p>
-          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg" alt="">
-          </article>
-          <article>
-          <p>Susan Phillips</p>
-          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg" alt="dos personas saltando">
-          </article>
-          <article>
-    
-          <p>Taylor Roberts</p>
-          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg" alt="Una persona saltando en paracaidas y un avion de fondo ">
-          </article> 
-          <br>
-          <ul> 
-          <li>Schedule</li>  
-          <li>Schedule a Time Slot</li>
-          </ul>
-          <br>
-          <header>
-          <strong><h3>Schedule</h3></strong>
-          <strong><h3>Schedule a Time Slot</h3></strong>
-          <header>
-          </div>
-          <br>
-          <header><h3>HORARIO</h3></header><br>
-          <table cellspacing="10">
-          <table border="2">
+          <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_c18b1c463b80090894237a262dfdfbad.jpg" alt="Harold Rothstein">
+      </article>
+      <article class="col col-3 col-middle">
+        <b class="member-name">Susan Phillips</b>
+        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_a18d6123a7c8e75f7e70a4e59b941093.jpg" alt="Susan Phillips">
+      </article>
+      <article class="col col-3 ">
+        <b class="member-name">Taylor Roberts</b>
+        <img src="https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_7104a331530d1b0611da55093b7dc421.jpg" alt="Taylor Roberts">
+      </article>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+
+     <!-- Aqui tenemos la seccion 4 del proyecto tabla de horarios -->
+     <section id="schedule" class="container">
+      <!-- Aqui tenemos el titulo de la tabla -->
+      <h3>Schedule</h3>
+      <!-- Aqui tenemos la tabla del proyecto -->
+      <table class="schedule-table" cellpadding="0" cellspacing="0">
+        <thead>
           <tr>
-          <th>Hora</th>
-          <th>Lunes</th>
-          <th>Martes</th>
-          <th>Miércoles</th>
-          <th>Jueves</th>
-          <th>Viernes</th>
-          <th>Sábado</th>
+           <th>Time</th>
+           <th>Monday</th>
+           <th>Tuesday</th>
+           <th>Wednesday</th>
+           <th>Thursday</th>
+           <th>Friday</th>
+           <th>Saturday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09.00 - 11.00</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
           </tr>
           <tr>
-          <td>9:00 - 11:00</td>
-          <td></td>
-          <td></td>
-          <td>X</td>
-          <td></td>
-          <td>X</td>
-          <td>X</td>
+            <td>12:00 - 14.00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
           </tr>
           <tr>
-          <td>12:00 - 14:00</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>X</td>
-          <td>X</td>
+            <td>15.00 - 17.00</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
           </tr>
-          <tr>
-          <td>15:00 - 17:00</td>
-          <td></td>
-          <td></td>
-          <td>X</td>
-          <td>X</td>
-          <td>X</td>
-          <td>X</td>
-          </tr>
-          </table><br>
-        </section>
-        <div>
-        <footer>
+        </tbody>
+      </table>
+    </section>
+
+     <!-- Aqui tenemos la informacion del footer -->
+    <footer class="dark-background footer">
         <section>
-          <h5>Informacion de contacto</h5>
-          <address>IronSkydive <br> 33 Rue la Fayette,<br> 75009 París,<br> Francia <br>+33 (0) 619 193 088</address>
+        <h5>Contact Information</h5>
+        <address>
+          Ironskydive 33 
+          <br> Rue la Fayette,
+           75009 Pris,
+           <br> France 
+           <br> +33(0) 619 193 088
+        </address>
+            <h5>Follow us</h5>
+            <ul class="address">
+                <li>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Twitter</a>
+                </li>
+                <li>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Facebook</a>
+                </li>
+                 <li>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </li>
+            </ul>
+            <iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6533470.556933964!2d-127.36536113694875!3d36.91017160390693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x495a1459ef4f77b9%3A0x91a8efb2f4d4853e!2sGoogle!5e0!3m2!1ses!2ses!4v1682033831130!5m2!1ses!2ses" width="500" height="250" style="border-radius: 1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <section>
-          <h5>Síguenos</h5>
-          <ul>
-          <li><a href="https://twitter.com/IronSkydive" target="_blank">Twitter</a></li>
-    
-          <li><a href="https://www.facebook.com/IronSkydive/" target="_blank">Facebook</a>
-          </li>
-          <li><a href="https://www.instagram.com/ironskydive/" target="_blank">Instagram</a>
-          </li>
-          </ul>
-        </section>
-          </footer>
-        <section id="información general">
-        <!-- Contenido de la sección de información general -->
-        </section>
-      
-        <section id="estructura">
-        <!-- Contenido de la sección de estructura -->
-        </section>
-      
-        <section id="equipo">
-        <!-- Contenido de la sección de equipo -->
-        </section>
-      
-        <section id="horario">
-        <!-- Contenido de la sección de horario -->
-        </section>
-      
+ </footer>
 </body>
-</html>
+</html>        
