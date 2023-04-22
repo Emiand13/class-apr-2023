@@ -129,8 +129,12 @@ h5 {
     font-size: 1.7em;
     text-align: center;
 }
-.servicebox img{
-    width: 125px;
+    .service-box img {
+        position: 0 0;
+        height: 125px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
 }
 .servicebox-title{
     letter-spacing: normal;
