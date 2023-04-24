@@ -131,8 +131,8 @@ h5 {
     justify-content: center;
     align-items: center;
 }
-.general-info {
-    display: inline;
+.general-info div > {
+    display: flex;
 }
 .link-btn{
     color: white;
