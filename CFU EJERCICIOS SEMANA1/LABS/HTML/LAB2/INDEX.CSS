@@ -89,21 +89,47 @@ h5 {
 
 .quote {
     font-size: 2.5em;
-    margin-top: 300px;
-}
-
-/* Aqui tenemos los estilos de la seccion 1 */
-.dark-background {
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
+  }
+  
+  .dark-background {
     background-color: rgb(25, 33, 41);
     color: white;
-    padding: 30px;  
-}
-.general-info--text{
+    padding-top: 0% 0;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+  }
+  
+  .col {
+    float: left;
+  }
+  
+  .col-3 {
+    width: 30%;
+  }
+  
+  .col-middle {
+    margin: 0 5%;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+.general-info-text{
     font-size: 1em;
     font-family: 100;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .general-info {
     display: inline;
@@ -115,53 +141,67 @@ h5 {
     letter-spacing: 0.5px;
     text-align: center;    
     background-color: rgb(67, 163, 230);    
-    font-size: 0,5em;
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
-    box-shadow: #020819 4px 4px 4px; ;
-}
-/* Aqui tenemos los estilos de la seccion 2 */
-#structure{
-    padding: 50px;
-}
-.servicebox{
-    font-size: 1.7em;
-    text-align: center;
-}
-    .service-box img {
-        position: 0 0;
-        height: 125px;
-        background-size: cover;
-        background-repeat: no-repeat;
+    box-shadow: #020819 5px 5px 5px; ;
+   
     
 }
+/* Aqui tenemos los estilos de la seccion 2 */
+#structure .service-box-col {
+    font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #eee;
+    margin: 50px 5% 0;
+    padding: 20px;
+    width: 40%;
+}
+.service-box img {
+    width: 100px;
+  }
+  
+
+.service-box-col {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+}
+
 .servicebox-title{
     letter-spacing: normal;
 }
 /* Aqui tenemos los estilos de la seccion 3 */
 #team .section-text{
-    font-size: 1.9em;
+    font-size: 2rem;
     text-align: center;
     line-height: normal;
+   
 }
 #team .member-name{
     font-size: 1.5em;
     font-weight: 700;
     text-align: center;
-    letter-spacing: normal;
-}
+    letter-spacing:normal
 
-#team img{
-    width: 250px;
 }
+.col-3 img{
+    width: 10cm;
+}
+   
+
 /* Aqui tenemos los estilos de la seccion 4 */
 
 #schedule{
     padding: 50px;
 }
 .schedule-table{
-    border: 1px solid;
+ 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -169,7 +209,14 @@ h5 {
     margin: auto;
     text-align: center ;
 }
-tr{
+.schedule-table th,
+.schedule-table td {
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.tr{
     padding: 5px;    
 }
 /* Aqui tenemos los estilos del footer */
@@ -191,3 +238,4 @@ tr{
     border-radius: 7px;
     box-shadow: #020819 4px 4px 4px ;
 }
+
