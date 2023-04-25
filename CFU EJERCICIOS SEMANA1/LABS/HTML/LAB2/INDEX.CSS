@@ -105,6 +105,11 @@ h5 {
     margin: 0 auto;
     padding: 75px 0;
   }
+
+  .test-flex{
+display:flex;
+
+  }
   
   .col {
     float: left;
@@ -122,7 +127,7 @@ h5 {
     clear: both;
   }
   
-.general-info-text{
+.informacion-texto{
     font-size: 1em;
     font-family: 100;
     text-align: center;
@@ -131,8 +136,16 @@ h5 {
     justify-content: center;
     align-items: center;
 }
-.general-info div > {
+.informacion-texto p{
+font-size: 1.3em;
+width: 400px;
+height: 50px;
+margin: auto;
+line-height:normal ;
+}
+.informacion-seccion1 {
     display: flex;
+    justify-content: center;
 }
 .link-btn{
     color: white;
@@ -144,7 +157,7 @@ h5 {
     text-decoration: none;
     padding: 10px;
     border-radius: 3px;
-    box-shadow: #020819 5px 5px 5px; ;
+    box-shadow: #44f00a 6px 6px 6px; ;
    
     
 }
@@ -155,7 +168,7 @@ h5 {
     border: 2px solid #eee;
     border-radius: 20px;
     box-sizing: border-box;
-    box-shadow: 2px 2px 10px 0 #eee;
+    box-shadow: 3px 3px 12px 0 #44f00a;
     margin: 50px 5% 0;
     padding: 20px;
     width: 40%;
@@ -177,10 +190,14 @@ h5 {
     letter-spacing: normal;
 }
 /* Aqui tenemos los estilos de la seccion 3 */
-#team .section-text{
-    font-size: 2rem;
+#team .seccion3-texto{
+    font-size: 1.5rem;
     text-align: center;
     line-height: normal;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-bottom:3px solid #23ee15;
+
    
 }
 #team .member-name{
@@ -192,6 +209,8 @@ h5 {
 }
 .col-3 img{
     width: 10cm;
+    border-radius: 12px;
+    box-shadow: 3px 3px 12px 0 #44f00a;
 }
    
 
@@ -201,18 +220,18 @@ h5 {
     padding: 50px;
 }
 .schedule-table{
- 
+ font-size: medium;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
     margin: auto;
     text-align: center ;
 }
 .schedule-table th,
 .schedule-table td {
   border-bottom: 1px solid black;
-  padding: 5px 10px;
+  padding: 10px 20px;
   text-align: center;
 }
 
@@ -220,22 +239,31 @@ h5 {
     padding: 5px;    
 }
 /* Aqui tenemos los estilos del footer */
+.dark-background-footer{
+    margin-top: 2rem;
+}
+
+
+
 .footer{
     font-size: 1.9em;
     text-align: center;
 }
 .address{
     font-style: normal;
-    font-size: 0.8em;
+    font-size: em;
     list-style: none;  
+    margin-top: 1rem;
+
 }
 .footer a {
     text-decoration: none;
     color: rgb(67, 163, 230);
+   
 }
 
 .googlemaps{
     border-radius: 7px;
-    box-shadow: #020819 4px 4px 4px ;
+    box-shadow: #23ee15 4px 4px 4px ;
 }
 
