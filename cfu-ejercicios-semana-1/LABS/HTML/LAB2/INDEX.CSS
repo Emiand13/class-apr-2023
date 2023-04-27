@@ -239,11 +239,25 @@ line-height:normal ;
     padding: 5px;    
 }
 /* Aqui tenemos los estilos del footer */
-.dark-background-footer{
+
+.section-footer{
+    display: flex;
+    padding: 30px 20px 30px 020px;
+    justify-content: center;
+}
+
+.dark-background section{
     margin-top: 2rem;
 }
 
+.footer-info{
+    text-align: center;
+    padding: 0px 100px 0px 0px; 
+}
 
+.footer-info address{
+    line-height: 20px;
+}
 
 .footer{
     font-size: 1.9em;
