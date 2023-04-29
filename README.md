@@ -1,2 +1,2 @@
-# clone-test
-Aprendiendo a clonar repositorios
+# class-apr-2023
+Estudiando programacion en Ironhack!!!
