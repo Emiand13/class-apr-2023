@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+margin:0;
+padding: 0;
+font-family:'Open Sans', sans-serif;  ;
+}
+
+body{
+font-size: 16px;
+}
+
+h1{
+font-size: 100px;
+}
+
+/* Comienza el logo y el nav de la web */
+
+.logo{
+    height: 40px;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0px 20px 40px;
+
+
+}
+
+.lista-nav{
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-right: 120px;
+
+}
+
+.lista-nav a{
+    text-decoration:none;
+    color: black;
+}
+
+.lista-nav a:hover{
+    color: #00b172;
+}
+
+    /* Comienzan los estilos seccion 1 de la web */
+
+
+ .music{
+    background-image: url(../images/landing.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+/* aqui comienza seccion 1 */
+
+.music h1{
+    font-size: 5rem;
+    font-weight: 800px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.music p{
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+        /* Aqui comienza la seccion 2 */
+.whats{
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline solid #00b172 2px;
+    text-underline-offset: 15px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+    /* Aqui el contenedor principal de la seccion 3 */
+
+.card-container{
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 4rem;
+
+}
+.card-container h3{
+    color: #00b172;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+        /* Aqui tenemos los iconos de la seccion 3 */
+
+.card img{
+    width: 30%;
+    justify-content: space-around;
+}
+
+.card{
+    text-align: center;
+}
+
+ .img p{
+    margin-bottom: 2rem;
+}
+
+        /* Aqui comienza la seccion 3 */
+
+.container-kanye{
+    background-color: #00b172;
+    background-image:url(../images/spotify-icon-white.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 900px;
+}
+
+        /* Aqui tenemos la imagen de Kanye West */
+
+.imagen-kanye{
+    width: 350px;
+    height: 700px;
+    display: flex;
+    justify-content:center;
+    float: right;
+    padding: 6rem 8rem 4rem 4rem;
+}
+         /* Aqui el texto h2 de la seccion 3 */
+
+.texto-seccion3 h2{
+    font-size: 3rem;
+    color: white;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    text-decoration: underline solid white 4px;
+    text-underline-offset:15px;
+    padding-bottom: 3rem;
+}
+
+     /* Aqui tenemos el texto h3 de la seccion 3 */
+
+.texto-seccion3 h3{
+    font-size: 2rem;
+    color:white;
+    padding-top: 2rem;
+    padding-left: 1rem;  
+}
+
+    /* Aqui tenemos el parrafo de la seccion 3 */
+
+.texto-seccion3 p{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center center;
+    color:white;
+    padding-top: 2rem ;
+    padding-left: 1rem;
+}
+
+    /* Aqui tenemos la ultima parte seccion 3 */
+
+.texto-seccion3{
+    text-align: left;
+    padding: 6rem 4rem 4rem 4rem;
+}
+
+
+
