@@ -38,7 +38,6 @@ header h1 {
 }
 .text-shadow {
   color: white;
-  text-shadow: #3bb8d1 8px -8px 9px;
   padding-top: 30px;
 }
 
@@ -57,21 +56,23 @@ main section {
   text-align: justify;
 }
 
+.time-recipe{
+  display: flex;
+  justify-content: space-between ;
+}
+
+.time-cooking{
+  display: flex;
+  justify-content: space-between ;
+
+}
 
 #ingredientes-receta ul {
-  list-style-type: " ";
   margin: 0 0 1rem 1rem;
 }
 
 #directrices ol {
-  list-style-type: none;
-  counter-reset: section;
-}
-
-#directrices ol li::before {
-  
-  counter-increment: section;
-
+  list-style-type: style type;
 }
 
 #directrices li {

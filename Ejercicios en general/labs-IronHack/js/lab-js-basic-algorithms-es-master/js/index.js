@@ -10,7 +10,7 @@ let hackerTwo = "Emilio";
 console.log("El nombre del conductor es " + hackerOne);
 
 
-console.log("El nombre del navegador es " + hackerTwo);
+console.log("El nombre del navegante es " + hackerTwo);
 
 
 // Como podemos revisar el valor de longitud de una variable???? 
