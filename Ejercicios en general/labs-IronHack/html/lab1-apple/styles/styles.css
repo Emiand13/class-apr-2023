@@ -36,10 +36,6 @@ header h1 {
   justify-content: center;
 
 }
-.text-shadow {
-  color: white;
-  padding-top: 30px;
-}
 
 main {
   padding: 2rem;
@@ -53,7 +49,7 @@ main section {
   font-size: 1rem;
   font-weight: 300;
   margin: 0 0 2.5rem 0;
-  text-align: justify;
+  text-align: center center;
 }
 
 .time-recipe{
