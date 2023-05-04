@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+body{
+	background-color: aqua;
+
+}
 .wrap{
 	width: 1100px;
 	margin: 50px auto;
