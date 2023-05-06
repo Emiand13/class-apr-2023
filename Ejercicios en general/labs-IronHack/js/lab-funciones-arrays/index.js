@@ -22,8 +22,6 @@ function maxOfTwoNumbers(num1,num2) {
 // ITERACION 2:  Encontrar la palabra más larga
 
 
-
-
 function findLongestWord (words) {
 
     let longestWord = " ";
@@ -66,18 +64,20 @@ function sumNumbers(numbers) {
 
 // Nivel 1: Matriz de números
 
-function averageNumbers (numbers1) {
-    let avg = 0;
-  
-    for (let i = 0; i < numbers1.length; i++) {
-      avg += numbers1[i];
-    }
-  
-    return avg;
+function averageNumbers(numeros) {
+  let sum = 0;
+
+  for (let i = 0; i < numeros.length; i++) {
+    sum += numeros[i];
   }
-  
-  const numbers1 = [2, 6, 9, 10, 7, 4, 1, 9];
-  console.log(averageNumbers(numbers1)); //resultado 48
+
+  const avg = sum / numeros.length;
+
+  return avg;
+}
+
+const numeros = [2, 6, 9, 10, 7, 4, 1, 9];
+console.log(averageNumbers(numeros)); // resultado: 6
 
 
 //   Nivel 2: Matriz de cadenas
@@ -101,19 +101,19 @@ function averageWordLength(words1) {
 // ITERACION 5: Arreglos únicos
 
 
-function uniquifyArray(words2) {
+function uniquifyArray(wordArray) {
     let uniqueWords = [];
   
-    for (let i = 0; i < words2.length; i++) {
-      if (uniqueWords.indexOf(words2[i]) === -1) {
-        uniqueWords.push(words2[i]);
+    for (let i = 0; i < wordArray.length; i++) {
+      if (uniqueWords.indexOf(wordArray[i]) === -1) {
+        uniqueWords.push(wordArray[i]);
       }
     }
   
     return uniqueWords;
   }
   
-  const words2 = [
+  const wordArray = [
     'crab',
     'poison',
     'contagious',
@@ -127,7 +127,7 @@ function uniquifyArray(words2) {
     'bring'
   ];
   
-  console.log(uniquifyArray(words2)); // ['crab', 'poison', 'contagious', 'simple', 'bring', 'sharp', 'playground', 'communion']
+  console.log(uniquifyArray(wordArray)); // ['crab', 'poison', 'contagious', 'simple', 'bring', 'sharp', 'playground', 'communion']
   
 
 //   ITERACION 6: Buscar elementos
