@@ -22,23 +22,23 @@
 
 
 
-const texto = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis quam in elit gravida viverra. Vivamus at consequat neque. Aenean dapibus feugiat cursus. Nunc velit nisl, malesuada id suscipit vel, scelerisque in felis. Mauris volutpat quam tortor, at sollicitudin enim semper bibendum. Curabitur quis nisl eget diam pellentesque pretium. Phasellus placerat nisi at enim dignissim, vel lacinia ex porta. Morbi interdum nibh dui, at ultricies nisl blandit sit amet. Mauris tempus ac ligula quis bibendum. Fusce in justo diam. Sed nec feugiat purus, non dapibus purus. Sed iaculis massa vitae mauris maximus, a vestibulum odio dignissim. Praesent et quam ex.
+// const texto = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis quam in elit gravida viverra. Vivamus at consequat neque. Aenean dapibus feugiat cursus. Nunc velit nisl, malesuada id suscipit vel, scelerisque in felis. Mauris volutpat quam tortor, at sollicitudin enim semper bibendum. Curabitur quis nisl eget diam pellentesque pretium. Phasellus placerat nisi at enim dignissim, vel lacinia ex porta. Morbi interdum nibh dui, at ultricies nisl blandit sit amet. Mauris tempus ac ligula quis bibendum. Fusce in justo diam. Sed nec feugiat purus, non dapibus purus. Sed iaculis massa vitae mauris maximus, a vestibulum odio dignissim. Praesent et quam ex.
 
-Nunc consequat, justo vehicula ullamcorper maximus, mi ligula interdum sem, vitae molestie leo turpis non lorem. Etiam id arcu venenatis erat consequat euismod eget egestas felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent mattis augue sem, nec mattis orci convallis non. Morbi lectus leo, sodales quis euismod at, euismod et diam. Sed sit amet feugiat turpis, sed consectetur orci. Suspendisse viverra quis elit non tempus. Donec vel mi hendrerit, pharetra ligula eu, convallis dolor. Integer non lectus odio. Suspendisse tincidunt convallis nunc, ac mollis elit mattis a. Etiam arcu ante, semper quis tempus sed, pellentesque ut magna. Maecenas pellentesque malesuada congue.
+// Nunc consequat, justo vehicula ullamcorper maximus, mi ligula interdum sem, vitae molestie leo turpis non lorem. Etiam id arcu venenatis erat consequat euismod eget egestas felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent mattis augue sem, nec mattis orci convallis non. Morbi lectus leo, sodales quis euismod at, euismod et diam. Sed sit amet feugiat turpis, sed consectetur orci. Suspendisse viverra quis elit non tempus. Donec vel mi hendrerit, pharetra ligula eu, convallis dolor. Integer non lectus odio. Suspendisse tincidunt convallis nunc, ac mollis elit mattis a. Etiam arcu ante, semper quis tempus sed, pellentesque ut magna. Maecenas pellentesque malesuada congue.
 
-In pellentesque ante sed justo tristique, ac mollis turpis mattis. Sed ultrices vehicula fermentum. Cras porttitor lectus consectetur elit rhoncus, nec euismod mi imperdiet. Duis eget felis eu ipsum fringilla varius. Duis ac eros vel libero volutpat molestie. Ut at viverra nibh, ut facilisis sem. Aenean eget mattis turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam nec sapien pulvinar, placerat ex mollis, bibendum elit. Donec rhoncus lectus a purus maximus bibendum. Vestibulum cursus finibus arcu, vel aliquam leo auctor ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non consectetur orci. Curabitur lobortis dapibus volutpat. Praesent tempor commodo eleifend.`;
+// In pellentesque ante sed justo tristique, ac mollis turpis mattis. Sed ultrices vehicula fermentum. Cras porttitor lectus consectetur elit rhoncus, nec euismod mi imperdiet. Duis eget felis eu ipsum fringilla varius. Duis ac eros vel libero volutpat molestie. Ut at viverra nibh, ut facilisis sem. Aenean eget mattis turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam nec sapien pulvinar, placerat ex mollis, bibendum elit. Donec rhoncus lectus a purus maximus bibendum. Vestibulum cursus finibus arcu, vel aliquam leo auctor ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin non consectetur orci. Curabitur lobortis dapibus volutpat. Praesent tempor commodo eleifend.`;
 
-const palabras = texto.split(' ');
-console.log(`Hay un total de ${palabras.length} palabras en el texto.`);
+// const palabras = texto.split(' ');
+// console.log(`Hay un total de ${palabras.length} palabras en el texto.`);
 
-let contador = 0;
-for (let i = 0; i < palabras.length; i++) {
-  if (palabras[i] === 'et') {
-    contador++;
-  }
-}
+// let contador = 0;
+// for (let i = 0; i < palabras.length; i++) {
+//   if (palabras[i] === 'et') {
+//     contador++;
+//   }
+// }
 
-console.log(`La palabra "et" aparece ${contador} veces en el texto.`);
+// console.log(`La palabra "et" aparece ${contador} veces en el texto.`);
 
 
 
@@ -105,7 +105,7 @@ welcomeMessage("So nice to have you here! Welcome!");
 //   "Please enter the language - (options: Spanish, French, English): "
 // );
 // const name = prompt("Please enter your name: ");
- 
+
 // if (language === "Spanish") {
 //   console.log(`Hola, ${name}`);
 // } else if (language === "French") {
@@ -119,7 +119,7 @@ welcomeMessage("So nice to have you here! Welcome!");
 
 // const language = prompt("Please enter the language - (options: Spanish, French, English): ");
 // const name = prompt("Please enter your name: ");
- 
+
 // switch (language) {
 //   case "Spanish":
 //     console.log(`Hola, ${name}!`);
@@ -158,7 +158,7 @@ if ("false") {
 // // Game of Thrones Switch
 
 // const name = prompt("Your favorite Game of Thrones character?");
- 
+
 // let house = "";
 // switch (name) {
 //   case "Daenerys":
@@ -174,7 +174,7 @@ if ("false") {
 //     house = "Lannister";
 //     break;
 // }
- 
+
 // console.log(`Your favorite character is from the house ${house}.`);
 
 
@@ -183,17 +183,17 @@ if ("false") {
 // Iteración 1 - Crea un bucle while que cuente desde 0 hasta 30
 
 
- 
-let i = 0;
-while (i <= 30) {
-  console.log(i);
-  i++;
-}
+
+// let i = 0;
+// while (i <= 30) {
+//   console.log(i);
+//   i++;
+// }
   // Iteración 2 - Cambia el script anterior para escribir “diez” cuando el valor del contador sea 10, y “veinte” cuando el valor del contador sea 20. Resultado esperado:
 
 
   // iteration 2
- 
+
 // let i = 0;
 // while (i < 30) {
 //   i++; // this is the same as i = i + 1
@@ -221,10 +221,177 @@ while (i <= 30) {
 
 // 1 is odd 2 is even … 19 is odd 20 is even
 
-for (let i = 0; i <= 20; i++) {
-  if (i % 2 === 0) {
-    console.log(i + " is even");
-  } else {
-    console.log(i + " is odd");
-  }
+// for (let i = 0; i <= 20; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i + " is even");
+//   } else {
+//     console.log(i + " is odd");
+//   }
+// }
+
+
+
+
+
+
+const expressionOne = ((2 * 2) + 5) * 6;
+
+const expressionTwo = ((2* 2) + (5 * 3)) - 5;
+
+const expressionThree = (5 * 5) / (5 * 5);
+
+const expressionFour = 5 * 5 - 5 * 4;
+
+console.log(expressionOne,expressionTwo,expressionThree,expressionFour);
+
+
+let string = "My favorite dessert is jello";
+let index = string.indexOf("j");
+console.log(index); // 23
+
+
+// String methods (Métodos de cadenas)
+
+// Instrucciones
+
+
+
+// Crea tres (3) variables: una para guardar tu nombre, otra para tu apellido y una para tu edad.
+
+const name = "emilio";
+const surname = "carrasco";
+const age = 35;
+
+
+// Haz que las primeras letras de tu nombre y apellido estén en mayúscula.
+
+const nameInCaps = name.charAt(0).toUpperCase() + name.substring(1);
+console.log(nameInCaps); // Emilio
+
+let surnameInCaps = surname[0].toUpperCase() + surname.slice(1);
+console.log(surnameInCaps); // Carrasco
+
+let fullName = `${nameInCaps} ${surnameInCaps}`;
+
+// other:
+// let fullName = capFirstName + ' ' + capLastName;
+
+console.log(fullName); // Emilio Carrasco
+
+console.log(`My name is ${fullName} and I am ${age}.`);
+// My name is Emilio and I am 35.
+
+
+
+
+
+
+let = age;
+
+if (age === undefined){
+  console.log("edad no esta definida");
+} else {
+ console.log("edad definida");
 }
+
+
+
+
+
+
+
+
+// Step 1
+let num = -10;
+ 
+// Step 2
+let isEven = false;
+ 
+// Step 3
+if (num % 2 === 0){
+  isEven = true;
+}
+ 
+// Step 4
+let isPositive = false;
+ 
+ 
+// Step 5
+if (num > 0){
+  isPositive = true;
+}
+ 
+// Step 6
+let isNegative = false;
+ 
+// Step 7
+if (num < 0){
+  isNegative = true;
+}
+ 
+// Step 8
+console.log(isEven); // true
+console.log(isPositive); // false
+console.log(isNegative); // true
+
+
+
+// Funciones anónimas como argumentos de otras funciones
+// Las funciones anónimas pueden usarse como argumento pasado a otra función.
+
+
+
+
+function printName(name, anonFunc) {
+  anonFunc(name);
+}
+
+printName("sandra", function (name) {
+  console.log(name[0].toUpperCase() + name.slice(1));
+});
+
+// => Sandra
+
+
+
+// METODO NATIVO JS setTimeout
+
+// La funcion de ejecuta pasado 1 segundo 
+
+setTimeout(function () {
+  console.log("I am anonymous function and I will execute after 1 second.");
+}, 1000);
+
+// ... nothing happens for 1 second
+// => I am anonymous function and I will execute after 1 second.
+
+
+// Para usarla posteriormente debemos darle una declaracion de funcion adecuada ejemplo
+
+function notifyUser() {
+ console.log("hola soy emilio y te traigo este mensaje pasado 1 segundo.");
+ }
+
+ setTimeout(notifyUser, 1000);
+
+
+
+//  function expression syntax
+  const greeting = function (name) {
+   console.log(`Hello, ${name}!`);
+ };
+
+// // // arrow function syntax
+
+ const greeting1 = (name) => {
+    return name;
+ };
+
+
+const greeting2 = (name) => `Hello, ${name}!`;
+
+greeting("Ana"); // => Hello, Ana!
+
+
+
+const saludo = (saludo) => console.log("Hello there!");

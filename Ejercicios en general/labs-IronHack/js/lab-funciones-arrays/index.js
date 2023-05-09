@@ -109,7 +109,7 @@ function uniquifyArray(wordArray) {
         uniqueWords.push(wordArray[i]);
       }
     }
-  
+    console.log(uniqueWords);
     return uniqueWords;
   }
   
