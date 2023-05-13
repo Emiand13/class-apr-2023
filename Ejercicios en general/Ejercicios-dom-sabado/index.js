@@ -57,13 +57,6 @@ boton2.addEventListener('click', function() {
 // Lo que queremos de estos cuatro botones es que modifiquen el valor del <h1> según como se especifica. Es decir, tendremos dos botones con un evento de doble click que restaran y sumarán 2 al resultado del <h1>, así como otros dos botones con un evento de click que sumarán y restarán 1 al resultado.
 // HINT: Recordad que todos los valores dentro de un tag de HTML son cadenas de texto.
 
-
-
-
-
-
-
-
 const contador = document.querySelector('#contador');
 const restarDoble = document.querySelector('#restar-doble');
 const restar = document.querySelector('#restar');
@@ -100,11 +93,19 @@ sumarDoble.addEventListener('dblclick', function() {
 
 const button = document.getElementById('myButton');
 
+// En esta linea de codigo agregamos un "escucha de eventos" (eventListener) a un boton de HTML y cambiamos su estado visual y su texto c uando hacemos click en el y y ejecuta el código dentro de la función anónima.
 button.addEventListener('click', function() {
-  this.classList.toggle('green');
-  this.classList.toggle('red');
+
+// La función anónima, this se refiere al botón que se hizo clic. Luego, la función usa el método classList.toggle() para alternar las clases 'green' y 'red' en el botón, lo que cambia el color de fondo del botón.
+
+this.classList.toggle('green');
+this.classList.toggle('red');
+
+// Luego, la función usa una declaración if...else para cambiar el texto dentro del botón según su estado actual. Si el botón tiene la clase 'green', entonces el texto se establece en "I'm green", de lo contrario, se establece en "I'm red".
+// En resumen, el código hace que el botón cambie de color y texto cada vez que se hace clic en él, alternando entre los estados 'verde' y 'rojo'.
   if (this.classList.contains('green')) {
     this.textContent = "I'm green";
+
   } else {
     this.textContent = "I'm red";
   }
