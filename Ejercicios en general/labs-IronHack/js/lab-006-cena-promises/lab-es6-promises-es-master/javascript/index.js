@@ -3,7 +3,8 @@
 
 // 🚨🚨🚨 Comment out the below code before you start working on the code
 
-// Out of sync
+// Iteracion 1 - Using callbacks
+
 getInstruction("mashedPotatoes", 0, (step1) => {
   document.querySelector("#mashedPotatoes").innerHTML += `<li>${step1}</li>`;
   getInstruction("mashedPotatoes", 1, (step2) => {
@@ -32,33 +33,39 @@ getInstruction("mashedPotatoes", 0, (step1) => {
 
 // Iteration 2 - using promises
 obtainInstruction('steak', 0)
-  .then((step1) => {
+  .then((step) => {
     document.querySelector("#steak").innerHTML += `<li>season steak generously with salt, pepper and garlic powder</li>`;
-    return obtainInstruction('steak', 2);
+    return obtainInstruction('steak', 1);
 
   })
-  .then((step2) => {
+  .then((step) => {
     document.querySelector("#steak").innerHTML += `<li>place in zip lock bag</li>`;
-    return obtainInstruction('steak', 3);
+    return obtainInstruction('steak', 2);
   })
-  .then((step3) => {
+  .then((step) => {
     document.querySelector("#steak").innerHTML += `<li>cook in sous vide at 120 F for 1-2 hours</li>`
+    return obtainInstruction('steak', 3)
+  })
+  .then((step) => {
+    document.querySelector("#steak").innerHTML += `<li>remove from bag and pat dry</li>`
     return obtainInstruction('steak', 4)
   })
-  .then((step4) => {
-    document.querySelector("#steak").innerHTML += `<li>remove from bag and pat dry</li>`
+  .then((step) => {
+    document.querySelector("#steak").innerHTML += `<li>heat pan with grapeseed oil and a quarter stick of butter</li>`
     return obtainInstruction('steak', 5)
   })
-  .then((step5) => {
-    document.querySelector("#steak").innerHTML += `<li>heat pan with grapeseed oil and a quarter stick of butter</li>`
-    return obtainInstruction('steak', 6)
-  })
-  .then((step6) => {
+  .then((step) => {
     document.querySelector("#steak").innerHTML += `<li>cook steak for 30-60 seconds per side using a spoon to baste with butter</li>`
-    return obtainInstruction('steak', 7)
+    return obtainInstruction('steak',6)
   })
-  .then((step7) => {
+ .then((step) => {
     document.querySelector("#steak").innerHTML += `<li>rest for 10 minutes</li>`
+    return obtainInstruction('steak',7)
+  })
+
+
+  .then((step) => {
+    document.querySelector("#steak").innerHTML += `<li>enjoy</li>`
     document.querySelector("#steak").innerHTML += '<li>Steak is ready!</li>'
     document.querySelector("#steakImg").removeAttribute("hidden");
     
@@ -84,7 +91,7 @@ function obtainInstruction(veggie, step) {
 
 let makebrocoli = async () => {
   try {
-    let step1 = await obtainInstruction('broccoli', 0);
+    let step1 = await obtainInstruction("broccoli", 0);
     document.querySelector("#broccoli").innerHTML += `<li>wash broccoli in cold water</li>`;
 
     let step2 = await obtainInstruction('broccoli', 1);
@@ -168,11 +175,3 @@ makeBrusselsSprouts();
 
 
 
-// 'wash brussels sprouts',
-// 'cut off base and chop in half',
-// 'toss in bowl with olive oil, balsamic vinegar and salt',
-// 'preheat oven to 500 F',
-// 'coat baking sheet with olive oil',
-// 'roast in the oven for 20 minutes',
-// 'place back in bowl and add salt and pepper',
-// 'enjoy'

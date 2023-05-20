@@ -38,12 +38,12 @@ body {
 }
 
 .img{
-  margin-right: 100px;
+  margin-left: 30px;
   width:100px;
   height:100px;
   display: flex;
   justify-content:center;
-  float:right; 
+  float:inline-start;
 }
 
 #splits-container {
@@ -65,12 +65,23 @@ body {
 }
 
 .leash {
-  background: rgb(0, 239, 24);
+  background: rgb(0, 115, 255);
   border: 2px solid rgb(134, 59, 61);
   height: 50px;
   margin: 0 auto;
   width: 120px;
 }
+
+.emiand13{
+color:antiquewhite;
+font-size: 15px;
+text-align: justify;
+text-align: center;
+margin-top: 15px;
+
+}
+
+
 
 .leash-top {
   border-bottom: 0;
