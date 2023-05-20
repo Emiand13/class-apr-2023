@@ -22,6 +22,8 @@ Chronometer.prototype.startClick = function () {
   // Dentro del método "startClick", se utiliza la función "setInterval" para ejecutar una función de callback repetidamente con un intervalo de tiempo especificado. En este caso, la función de callback se ejecutará cada 10 milisegundos.
   this.intervalId = setInterval(()=>{
 
+
+    // Me falta comentar mas parte del codigo lo dejo por hoy BUEN FINDE!!!!!!!
     
     this.setTime()
     printTime()
@@ -77,44 +79,3 @@ Chronometer.prototype.resetClick = function () {
   this.milis = 0;
 };
 
-
-function printTime() {
-  time = chronometer.setTime()
-  printMinutes(time[0]);
-  printSeconds(time[1]);
-  printMilliseconds(time[2]);
-  }
-  
-  
-  
-  // Esto iria en el archivo chronometer.js
-  
-  Chronometer.prototype.startClick = function () {
-  this.intervalId = setInterval(()=>{
-  
-      
-      this.setTime()
-      printTime()
-      this.milis ++;
-      if(this.milis%100==0){
-        this.currentTime++;
-      }
-      if(this.currentTime === 1000){
-        this.currentTime = 0;
-      }
-      if(this.milis === 100){
-        this.milis = 0;
-      }
-    },10)
-  
-  };
-  
-
-
-
-  
-  
-  function printMilliseconds(milseg) {
-    milUni.innerHTML=milseg[1]
-    milDec.innerHTML=milseg[0]
-  }
