@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body p {
+    color: #6B708D;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+     
+}
+h3{ 
+    font-size: 40px;
+    font-weight: 700;
+}
+h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bodyIntroMedium24{
+    font-size: 24px;
+    font-weight: 400;
+}
+.bodyIntroMedium20{
+    font-size: 20px;
+    font-weight: 400;
+}
+.headlineRegular{
+    font-size: 17px;
+    font-weight: 300;
+}
+.headlineMedium{
+    font-size: 17px;
+    font-weight: 400;
+}
+.caption1{
+    font-size: 15px;
+    font-weight: 300;
+}
+.caption2{
+    font-size: 13px;
+    font-weight: 300;
+}
+.color1{
+    color: #072AC8;
+}
+.color2{
+    color: #43d2ff;
+}
+.color3{
+    color:#A2D6F9;
+}
+.color4{
+    color: #d1edff;
+}
+.color5{
+    color: #292E47;
+}
+.color6{
+    color:#6B708D;
+}
+.color7{
+    color: #F2F4FC;
+}
+.color8{
+    color: #ECF7FF;
+}
+.color9{
+    color:#FFC600;
+}
+.buttonBlue{
+    background-color: #072AC8;
+    padding: 12px 25px 12px 25px;
+    color: #F2F4FC;
+    border: 0em;
+}
+.buttonWhite{
+    padding: 12px 25px 12px 25px;
+    color: #6B708D;
+}

@@ -1,0 +1,153 @@
+li{
+  list-style: none;
+}
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.nav-branding{
+  font-size: 2rem;
+}
+.nav-link {
+  transition: 0.7s ease;
+}
+.nav-link:hover{
+  color: #a1a5b7;
+}
+#headerMovil{
+  position: relative;
+  background-color: #6B708D;
+}
+.headerMovilItems{
+  justify-content: flex-end;
+}
+.logoMovil{
+  position: absolute;
+  top: 25px;
+  height: 25px;
+  margin-left: 7vw;
+  justify-content: flex-start;
+
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+.movilstyle{
+  margin: 20px;
+}
+ /* .movil.active .bar:nth-child(2){
+  opacity: 0;
+} 
+ .movil.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+.movil.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}   */
+.nav-menu{
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #6B708D;
+  color: white;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+.nav-item{
+  margin: 16px 0;
+}
+ .nav-menu.active{
+  left: 0;
+
+}
+#navMovil{
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* //// TABLET /// */
+@media (min-width: 769px) and (max-width: 1023px) {
+  #headerMovil {
+    display: none;
+  }
+  .header{
+      display: flex;
+      justify-content: center;
+  }
+  .navbar{
+    
+      display: flex;
+      justify-content: space-between;
+      width: 85%;
+  }
+  .menu{
+      justify-content: space-between;
+      width: 40%;
+      align-items: center;
+  }
+  .logo{
+      height: 21px;
+      align-items: center;
+      padding: 0px 0 0 0;
+  }
+  .buttonContact{
+      align-items: center;
+      border-radius: 15px;
+  }
+
+}
+/* /// DESKTOP //// */
+
+@media (min-width:1024px){
+  #headerMovil {
+    display: none;
+  }
+  .Movilheader{
+      display: none;
+  }
+
+  .header{
+      justify-content: center;
+      display: flex;
+  }
+  .navMovil{
+      margin-top: 50px;
+      justify-content: space-between;
+      width: 85%;
+  }
+  .menu{
+      justify-content: space-between;
+      width: 35%;
+      align-items: center;
+  }
+  .logo{
+      height: 21px;
+      align-items: center;
+      padding: 0px 0 0 0;
+  }
+  .buttonContact{
+      align-items: center;
+  }
+
+}
+

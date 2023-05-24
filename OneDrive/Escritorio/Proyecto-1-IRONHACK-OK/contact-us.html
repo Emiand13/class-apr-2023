@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact-us</title>
+  <link href="./contact-us.html" rel="stylesheet" type="text/css" />
+  <link href="./resources/styles/fonts&colors.css" rel="stylesheet" type="text/css" />
+  <link href="./resources/styles/style.css" rel="stylesheet" type="text/css" />
+  <link href="./resources/styles/movilstyle.css" rel="stylesheet" type="text/css" />
+  <link href="./resources/styles/contact-us.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="navbar flex">
+      <div class="logo flex"><img src="./resources/images/logos/circle.svg" alt="logoCircle">
+      </div>
+      <div class="menu flex" style="cursor: pointer">
+        <a href="/index.html" class="color6">Home</a>
+        <a href="/index.html#projectsAnchor" class="color6">Projects</a>
+        <a href="/index.html#services" class="color6">Services</a>
+      </div>
+  </header>
+
+  <div id="headerMovil">
+    <!-- <img src="./resources/images/logos/circle.svg" class="logoBurger" alt="logoCircle" /> -->
+    <div class="headerMovilItems flex">
+      <nav id="navMovil" style="cursor: pointer">
+        <ul class="nav-menu" style="cursor: pointer">
+          <li class="nav-item">
+            <a href="./index.html#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./index.html#projectsAnchor" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="./index.html#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact-us.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="movil">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div id="alert" class="alert hide" role="alert">
+    Mensaje enviado correctamente... Gracias!!!</div>
+  <div class="contain">
+    <div class="form">
+      <h2>Contact Us</h2>
+      <form name="myForm" action="" method="get" class="" onsubmit="return validateForm()">
+        <p class="full-width">
+          <label for="name" class="under">Full Name *</label>
+          <input type="text" name="fname" placeholder="Enter your full name" id="name" required>
+        </p>
+        <p>
+          <label for="email">Email *</label>
+          <input type="email" name="email" placeholder="Enter you email adress" id="email" required>
+        </p>
+        <p>
+          <label for="phone">Phone *</label>
+          <input type="tel" name="phone" placeholder="Enter your phone number" id="phone" required>
+        </p>
+        <p class="full-width">
+          <label for="">Message</label>
+          <textarea name="" id="" cols="30" rows="7" placeholder="Write your message here..."></textarea>
+        </p>
+        <p class="full-width submit submit">
+          <button type="submit" value="Submit" style="cursor: pointer">Submit</button>
+        </p>
+      </form>
+    </div>
+  </div>
+  </div>
+  <footer class="footer flex margin-index">
+    <div class="footer-left-side">
+      <img src="./resources/images/logos/circle.svg" alt="Circle logo" />
+      <p class="company-address">2972 Westheimer Rd. Santa Ana,</p>
+      <p class="company-address">Illinois 85486</p>
+    </div>
+
+    <div class="footer-right-side flex">
+
+      <div class="link-container flex">
+        <a class="link" href="team">Team</a>
+        <a class="link" href="services">Services</a>
+        <a class="link" href="about-us">About us</a>
+      </div>
+
+      <div class="link-container flex">
+        <a class="link" href="press">Press</a>
+        <a class="link" href="projects">Projects</a>
+        <a class="link" href="privacy-policy">Privacy Policy</a>
+      </div>
+
+    </div>
+  </footer>
+  <script src="./resources/js/movil.js"></script>
+  <script src="./resources/js/contact.js"></script>
+
+</body>
+
+</html>
