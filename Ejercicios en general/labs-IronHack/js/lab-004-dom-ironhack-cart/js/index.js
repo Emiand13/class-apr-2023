@@ -243,9 +243,16 @@ function createProduct() {
       <button class="btn btn-remove">Remove</button>
     </td>
   `;
+  
   tableBody.appendChild(newRow);
   const removeButton = newRow.querySelector('.btn-remove');
   removeButton.addEventListener('click', removeProduct);
+
+  const productNameInput = document.querySelector('.create-product td:first-child input');
+  const productPriceInput = document.querySelector('.create-product td:nth-child(2) input');
+  productNameInput.value = '';
+  productPriceInput.value = '';
+  
 }
 
 function updateTotal() {
