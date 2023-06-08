@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+/* Colors:
+Blue	rgb(67, 163, 230);
+Dark Blue	rgb(25, 33, 41);
+Text	rgb(0, 0, 0); */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';  
+}
+body {
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed';
+}
+
+h1 {
+    font-size: 9em;
+    text-align: center ;
+    text-transform: uppercase;   
+}
+
+h2 {
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 4.2em;
+    text-align: center;
+    line-height: 1em;  
+}
+
+h4 {
+    font-size: 1.5em;
+    letter-spacing: 0.4em;
+    line-height: 1em;
+}
+
+h5 {
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+/* Aqui tenemos los estilos de la barra de navegacion */
+.nav-bar {
+    background-color: rgb(25, 33, 41);
+    padding: 20px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+#nav-text li {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.nav-text-i {
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+
+/* Aqui tenemos los estilos del encabezado */
+.header {
+    height: 650px;
+    background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");    
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-top: 100px; 
+    padding-left: 30px;
+}
+
+.text-shadow {
+    color: white;
+    text-shadow: #020819 8px -8px 9px;
+    padding-top: 30px;
+}
+
+.quote {
+    font-size: 2.5em;
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
+  }
+  
+  .dark-background {
+    background-color: rgb(25, 33, 41);
+    color: white;
+    padding-top: 0% 0;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+  }
+
+  .test-flex{
+display:flex;
+
+  }
+  
+  .col {
+    float: left;
+  }
+  
+  .col-3 {
+    width: 30%;
+  }
+  
+  .col-middle {
+    margin: 0 5%;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+.informacion-texto{
+    font-size: 1em;
+    font-family: 100;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.informacion-texto p{
+font-size: 1.3em;
+width: 400px;
+height: 50px;
+margin: auto;
+line-height:normal ;
+}
+.informacion-seccion1 {
+    display: flex;
+    justify-content: center;
+}
+.link-btn{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;    
+    background-color: rgb(67, 163, 230);    
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: #44f00a 6px 6px 6px; ;
+   
+    
+}
+/* Aqui tenemos los estilos de la seccion 2 */
+#structure .service-box-col {
+    font-size: 1.7em;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 12px 0 #44f00a;
+    margin: 50px 5% 0;
+    padding: 20px;
+    width: 40%;
+}
+.service-box img {
+    width: 100px;
+  }
+  
+
+.service-box-col {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+}
+
+.servicebox-title{
+    letter-spacing: normal;
+}
+/* Aqui tenemos los estilos de la seccion 3 */
+#team .seccion3-texto{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-bottom:3px solid #23ee15;
+
+   
+}
+#team .member-name{
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing:normal
+
+}
+.col-3 img{
+    width: 10cm;
+    border-radius: 12px;
+    box-shadow: 3px 3px 12px 0 #44f00a;
+}
+   
+
+/* Aqui tenemos los estilos de la seccion 4 */
+
+#schedule{
+    padding: 50px;
+}
+.schedule-table{
+ font-size: medium;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    text-align: center ;
+}
+.schedule-table th,
+.schedule-table td {
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.tr{
+    padding: 5px;    
+}
+/* Aqui tenemos los estilos del footer */
+
+.section-footer{
+    display: flex;
+    padding: 30px 20px 30px 020px;
+    justify-content: center;
+}
+
+.dark-background section{
+    margin-top: 2rem;
+}
+
+.footer-info{
+    text-align: center;
+    padding: 0px 100px 0px 0px; 
+}
+
+.footer-info address{
+    line-height: 20px;
+}
+
+.footer{
+    font-size: 1.9em;
+    text-align: center;
+}
+.address{
+    font-style: normal;
+    font-size: em;
+    list-style: none;  
+    margin-top: 1rem;
+
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(67, 163, 230);
+   
+}
+
+.googlemaps{
+    border-radius: 7px;
+    box-shadow: #23ee15 4px 4px 4px ;
+}
+

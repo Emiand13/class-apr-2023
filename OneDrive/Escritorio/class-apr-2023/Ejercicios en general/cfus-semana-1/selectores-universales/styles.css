@@ -1,0 +1,12 @@
+
+* {
+    font-family: monospace;
+    color: green; 
+  }
+  
+  #cover-box {
+    background-color: black;
+    color: navy;
+    width: 100px;
+    height: 50px;
+  }
