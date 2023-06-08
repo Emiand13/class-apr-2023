@@ -65,15 +65,15 @@ body {
 }
 
 .leash {
-  background: rgb(0, 115, 255);
-  border: 2px solid rgb(134, 59, 61);
+  background: rgb(169, 143, 209);
+  border: 2px solid rgb(0, 0, 0);
   height: 50px;
   margin: 0 auto;
   width: 120px;
 }
 
 .emiand13{
-color:antiquewhite;
+color:rgb(0, 0, 0);
 font-size: 15px;
 text-align: justify;
 text-align: center;
@@ -133,7 +133,7 @@ margin-top: 15px;
 }
 
 .btn.start {
-  background: rgb(0, 239, 24);
+  background: rgb(87, 255, 104);
 }
 .btn.stop {
   background: #ff0000;
