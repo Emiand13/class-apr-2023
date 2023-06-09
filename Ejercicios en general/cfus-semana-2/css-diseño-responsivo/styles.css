@@ -1,0 +1,27 @@
+ 
+.container h1 {
+    font-size: 30px;
+    color: #0881f9;
+  }
+   
+  @media (max-width: 500px) {
+    .container h1 {
+      font-size: 20px;
+      color: #83b4e5;
+    }
+  }
+   
+  @media (min-width: 501px) and (max-width: 1000px) {
+    .container h1 {
+      font-size: 30px;
+      color: #0881f9;
+    }
+  }
+   
+  @media (min-width: 1001px) {
+    .container h1 {
+      font-size: 40px;
+      color: #04396e;
+    }
+  }
+  

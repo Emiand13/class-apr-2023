@@ -1,0 +1,32 @@
+h1 {
+    text-transform: uppercase;
+  }
+
+   
+  p {
+    text-decoration: line-through;
+  }
+
+  div {
+    text-align: center;
+  }
+   
+
+  ul {
+    text-indent: 50px;
+  }
+   
+ 
+  ol {
+    line-height: 2.5;
+  }
+   
+
+  li {
+    letter-spacing: 2px;
+  }
+   
+
+  a {
+    word-spacing: 5px;
+  }
