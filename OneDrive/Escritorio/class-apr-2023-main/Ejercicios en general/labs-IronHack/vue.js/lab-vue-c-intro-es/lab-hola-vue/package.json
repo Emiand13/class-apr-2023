@@ -1,9 +1,5 @@
 {
-<<<<<<<< HEAD:Ejercicio-Sabado-2/package.json
-  "name": "ejercicio-sabado-2",
-========
   "name": "lab-hola-vue",
->>>>>>>> b53905ab508a75c4f3802a33811527f81005ff0d:Ejercicios en general/labs-IronHack/vue.js/lab-vue-c-intro-es/lab-hola-vue/package.json
   "version": "0.0.0",
   "private": true,
   "scripts": {
