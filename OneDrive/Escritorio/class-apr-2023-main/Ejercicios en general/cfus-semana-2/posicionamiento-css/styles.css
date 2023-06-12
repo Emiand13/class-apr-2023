@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+  }
+  
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: lightgrey;
+  }
+  
+  header h1 {
+    float: left;
+    margin: 0;
+    padding: 0 20px 0 20px;
+  }
+  
+  header nav {
+    float: right;
+    margin: 0;
+    padding: 0 20px 0 20px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  main {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    background-color: white;
+  }
+  
+  article {
+    float: left;
+    width: 60%;
+    margin: 20px;
+  }
+  
+  aside {
+    float: right;
+    width: 20%;
+    margin: 20px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: lightgrey;
+  }
+  
