@@ -1,0 +1,65 @@
+.container {
+    margin: 20px 0 0 20px;
+    display: flex;
+  }
+  
+  .circle {
+    background: #456789;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    animation: bounce 2s ease-in-out infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .square {
+    background: #456789;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    animation: fly 5s ease-in-out forwards;
+    animation-delay: 5s;
+  }
+  
+  @keyframes fly {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }
+  
+  .triangle {
+    margin: 10px;
+    border-style: solid;
+    border-color: transparent transparent #456789 transparent;
+    border-width: 0 20px 30px 20px;
+    animation: zigzag 10s ease-in-out infinite;
+  }
+  
+  @keyframes zigzag {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(100px) rotate(-20deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0deg);
+    }
+  }
+  
+  

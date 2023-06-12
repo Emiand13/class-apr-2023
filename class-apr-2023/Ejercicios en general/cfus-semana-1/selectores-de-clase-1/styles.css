@@ -1,0 +1,33 @@
+/* Haz que el color de fondo de la etiqueta body sea #00D1AE. */
+ 
+body {
+    background-color: #00D1AE;
+  }
+   
+
+/* Crea un <div> con la clase menu y asigna los siguientes atributos:
+width: 400px.
+height: 50px.
+background-color: green.
+    */
+
+  .menu {
+    width: 400px;
+    height: 50px;
+    background-color: green;
+  }
+
+  /* Crea otro <div> con la clase content y asigna los siguientes atributos:
+width:400px.
+height:200px.
+background-color: red. */
+   
+  .content {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+  }
+  
+  .important {
+    font-weight: bold;
+  }

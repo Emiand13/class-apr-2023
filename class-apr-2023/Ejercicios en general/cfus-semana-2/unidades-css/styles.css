@@ -1,0 +1,39 @@
+body {
+    font-size: 18px;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  header {
+    height: 80px;
+    background-color: #F5F5F5;
+    border: 1px solid #E6E6E6;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333333;
+  }
+  
+  main {
+    padding: 2em;
+    margin: 1em 0;
+  }
+  
+  p {
+    font-size: 1.5em;
+    color: #666666;
+  }
+  
+  footer {
+    height: 50px;
+    background-color: #333333;
+  }
+  
+  footer p {
+    font-size: 1em;
+    color: #FFFFFF;
+  }

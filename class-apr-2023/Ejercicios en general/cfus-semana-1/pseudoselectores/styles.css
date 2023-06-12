@@ -1,0 +1,19 @@
+div li:nth-child(odd) {
+    background-color: green;
+  }
+   
+  div li:nth-child(even) {
+    background-color: yellow;
+  }
+   
+  div li:first-child {
+    background-color: red;
+  }
+      
+  div li:last-child {
+    background-color: blue;
+  }
+   
+  button:hover {
+    color: purple;
+  }
