@@ -24,8 +24,7 @@
     <ProfileImage :image="tweet.user.image" />
     <div class="body">
       <div class="top">
-        <User :userData="tweet.user" />
-        <Handle  :userData="tweet.user.handle"/>
+        <User :userData="tweet.user" />       
         <Timestamp :timestamp="tweet.timestamp" />
       </div>
       <div class="content">

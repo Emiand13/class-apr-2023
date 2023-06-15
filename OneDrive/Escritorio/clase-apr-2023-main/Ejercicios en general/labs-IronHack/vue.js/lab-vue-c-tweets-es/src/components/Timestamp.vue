@@ -9,7 +9,7 @@ import { defineProps } from 'vue';
 
 defineProps({
   timestamp: {
-    type: Object,
+    type: String,
     required: true
   }
 });
